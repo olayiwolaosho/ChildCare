@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\NewDemo\NewDemo\bin\Debug\netstandard2.0\NewDemo.deps.json
+C:\Users\user\source\repos\NewDemo\NewDemo\bin\Debug\netstandard2.0\NewDemo.dll
+C:\Users\user\source\repos\NewDemo\NewDemo\bin\Debug\netstandard2.0\ref\NewDemo.dll
+C:\Users\user\source\repos\NewDemo\NewDemo\bin\Debug\netstandard2.0\NewDemo.pdb
+C:\Users\user\source\repos\NewDemo\NewDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\user\source\repos\NewDemo\NewDemo\obj\Debug\netstandard2.0\HistoryPage.xaml.g.cs
+C:\Users\user\source\repos\NewDemo\NewDemo\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\user\source\repos\NewDemo\NewDemo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\user\source\repos\NewDemo\NewDemo\obj\Debug\netstandard2.0\MapPage.xaml.g.cs
+C:\Users\user\source\repos\NewDemo\NewDemo\obj\Debug\netstandard2.0\ParentLogin.xaml.g.cs
+C:\Users\user\source\repos\NewDemo\NewDemo\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
+C:\Users\user\source\repos\NewDemo\NewDemo\obj\Debug\netstandard2.0\NewDemo.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\NewDemo\NewDemo\obj\Debug\netstandard2.0\NewDemo.AssemblyInfo.cs
+C:\Users\user\source\repos\NewDemo\NewDemo\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\user\source\repos\NewDemo\NewDemo\obj\Debug\netstandard2.0\NewDemo.dll
+C:\Users\user\source\repos\NewDemo\NewDemo\obj\Debug\netstandard2.0\ref\NewDemo.dll
+C:\Users\user\source\repos\NewDemo\NewDemo\obj\Debug\netstandard2.0\NewDemo.pdb
