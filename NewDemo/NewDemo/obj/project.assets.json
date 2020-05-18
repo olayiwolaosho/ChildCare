@@ -1440,25 +1440,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dev Adekunle\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dev Adekunle\\ChildCare\\ChildCare\\NewDemo\\NewDemo\\NewDemo.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\ChildCare\\NewDemo\\NewDemo\\NewDemo.csproj",
       "projectName": "NewDemo",
-      "projectPath": "C:\\Users\\Dev Adekunle\\ChildCare\\ChildCare\\NewDemo\\NewDemo\\NewDemo.csproj",
-      "packagesPath": "C:\\Users\\Dev Adekunle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dev Adekunle\\ChildCare\\ChildCare\\NewDemo\\NewDemo\\obj\\",
+      "projectPath": "C:\\Users\\user\\Desktop\\ChildCare\\NewDemo\\NewDemo\\NewDemo.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\ChildCare\\NewDemo\\NewDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dev Adekunle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1467,6 +1465,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://packagesource": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
