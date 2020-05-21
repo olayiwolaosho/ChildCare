@@ -36,7 +36,6 @@ C:\Users\user\Desktop\ChildCare\NewDemo\NewDemo\bin\Debug\netstandard2.0\NewDemo
 C:\Users\user\Desktop\ChildCare\NewDemo\NewDemo\bin\Debug\netstandard2.0\NewDemo.dll
 C:\Users\user\Desktop\ChildCare\NewDemo\NewDemo\bin\Debug\netstandard2.0\ref\NewDemo.dll
 C:\Users\user\Desktop\ChildCare\NewDemo\NewDemo\bin\Debug\netstandard2.0\NewDemo.pdb
-C:\Users\user\Desktop\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\NewDemo.csprojAssemblyReference.cache
 C:\Users\user\Desktop\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\user\Desktop\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\View\ActivitiesPage.xaml.g.cs
 C:\Users\user\Desktop\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\View\AddChildrenPage.xaml.g.cs
