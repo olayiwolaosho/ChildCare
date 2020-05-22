@@ -6,9 +6,9 @@ namespace NewDemo.Model
 {
     public class RegisterChildren
     {
-        public int id { get; set; }
+        public int Id { get; set; }
         public string Childname { get; set; }
-        public string password { get; set; }
+        public string Password { get; set; }
         // public string Childpicture { get; set; }
 
         //Foreignkey
