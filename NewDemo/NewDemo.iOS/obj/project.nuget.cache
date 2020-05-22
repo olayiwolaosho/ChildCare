@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kGx6PJJ+WSEJj3h9fZ/xh0BbpIe4qS+b40xJkVHHmRtpVj5ejl4u7k19+gMoPAmujWjEuYaQKI3qDt11pEnpDQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dev Adekunle\\ChildCare\\NewDemo\\NewDemo.iOS\\NewDemo.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dev Adekunle\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\Dev Adekunle\\.nuget\\packages\\xamarin.forms\\4.6.0.772\\xamarin.forms.4.6.0.772.nupkg.sha512"
+  ],
+  "logs": []
+}
