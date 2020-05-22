@@ -122,6 +122,9 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="FirebaseDatabase.net">
+      <Version>4.0.4</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.6.0.772" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
@@ -131,5 +134,14 @@
       <Project>{C4B6DA7C-B0BC-4997-AD32-1B26C4EA7D7F}</Project>
       <Name>NewDemo</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\view%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\view%402x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\view.png" />
   </ItemGroup>
 </Project>
