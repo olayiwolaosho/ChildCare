@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NewDemo.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,18 +16,9 @@ namespace NewDemo
         public AttendantPage()
         {
             InitializeComponent();
+            BindingContext = new AttendantPageViewModel(this.Navigation);
         }
 
-        private void ProfileView_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void SaveButton_Clicked(object sender, EventArgs e)
-        {
-
-
-            
-        }
+    
     }
 }

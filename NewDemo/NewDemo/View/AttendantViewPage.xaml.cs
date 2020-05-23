@@ -15,6 +15,7 @@ namespace NewDemo.View
         public AttendantViewPage()
         {
             InitializeComponent();
+            BindingContext = new AttendantViewPage();
         }
 
         private void AttedndantView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
