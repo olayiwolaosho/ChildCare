@@ -19,18 +19,18 @@
             <TableView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" 
                    Intent="Form" HasUnevenRows="true">
                 <TableSection Title="Complete Your Profile">
-                    <EntryCell x:Name="ChildName" Label="Child Name" />
+                    <EntryCell x:Name="ChildName" Label="Child Name"  Text="{Binding ChildName}"/>
                 </TableSection>
 
                 <TableSection Title=" ">
-                    <EntryCell x:Name="Password" Label="Password" />
+                    <EntryCell x:Name="Password" Label="Password" Text="{Binding Password}"/>
                 </TableSection>
 
 
             </TableView>
 
-            <Button Text="Save" Grid.Row="1" Grid.Column="0" BackgroundColor="#008000" TextColor="White" x:Name="saveButton" />
-                <Button Text="Cancel" Grid.Row="1" Grid.Column="1" BackgroundColor="#EE3F60" TextColor="White" x:Name="cancelButton" />
+            <Button Text="Save" Grid.Row="1" Grid.Column="0" BackgroundColor="#008000" TextColor="White"  Command="{Binding Save}"/>
+            <Button Text="Cancel" Grid.Row="1" Grid.Column="1" BackgroundColor="#EE3F60" TextColor="White" Command="{Binding Cancle}"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

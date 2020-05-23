@@ -7,10 +7,14 @@
              x:Class="NewDemo.ChildrenListPage">
     
     <ListView x:Name="ChildrenListView"
-              ItemSelected="ChildrenListView_ItemSelected">
+              ItemSelected="ChildrenListView_ItemSelected" ItemsSource="{Binding RegisterAllChildren}">
         <ListView.ItemTemplate>
             <DataTemplate>
-                <TextCell Text="{Binding RegisterChildren}"/>
+                <ViewCell>
+                    <StackLayout>
+                        <Label Text="{Binding Childname}"/>
+                    </StackLayout>
+                </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>
     </ListView>

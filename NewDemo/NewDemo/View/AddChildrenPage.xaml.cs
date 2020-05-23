@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NewDemo.ViewModel.ChildViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,7 @@ namespace NewDemo
         public AddChildrenPage()
         {
             InitializeComponent();
+            BindingContext = new AddChildrenViewModel();
         }
     }
 }
