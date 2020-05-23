@@ -6,7 +6,8 @@ namespace NewDemo.Model
 {
     public class RegisterChildren
     {
-        public int Id { get; set; }
+
+        public string Id { get; set; }
         public string Childname { get; set; }
         public string Password { get; set; }
         // public string Childpicture { get; set; }

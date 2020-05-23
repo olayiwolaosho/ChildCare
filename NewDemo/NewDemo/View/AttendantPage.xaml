@@ -26,29 +26,29 @@
             <TableView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" 
                    Intent="Form" HasUnevenRows="true">
                 <TableSection Title="Complete Your Profile">
-                    <EntryCell x:Name="FirstName" Label="First Name" />
+                    <EntryCell Text="{Binding FirstName}" Label="First Name" />
                 </TableSection>
 
                 <TableSection Title=" ">
-                    <EntryCell x:Name="LastName" Label="Last Name" />
+                    <EntryCell Label="Last Name" Text="{Binding LastName}"/>
                 </TableSection>
 
                 <TableSection Title=" ">
-                    <EntryCell x:Name="EmailAddress" Label="E-Address" />
+                    <EntryCell Text="{Binding Email}" Label="E-Address" />
                 </TableSection>
 
                 <TableSection Title=" ">
-                    <EntryCell x:Name="MobileNumber" Label="Number" />
+                    <EntryCell Text="{Binding Number}" Label="Number" />
                 </TableSection>
 
                 <TableSection Title=" ">
-                    <EntryCell x:Name="Gender" Label="Gender" />
+                    <EntryCell Text="{Binding Gender}" Label="Gender" />
                 </TableSection>
 
             </TableView>
 
-            <Button Text="Save" Grid.Row="1" Grid.Column="0" BackgroundColor="#008000" TextColor="White" x:Name="saveButton" Clicked="SaveButton_Clicked" />
-            <Button Text="Cancel" Grid.Row="1" Grid.Column="1" BackgroundColor="#EE3F60" TextColor="White" x:Name="cancelButton" />
+            <Button Text="Save" Grid.Row="1" Grid.Column="0" BackgroundColor="#008000" TextColor="White" Command="{Binding Save}"/>
+            <Button Text="Cancel" Grid.Row="1" Grid.Column="1" BackgroundColor="#EE3F60" TextColor="White" Command="{Binding Cancel}"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

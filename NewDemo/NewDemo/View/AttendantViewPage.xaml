@@ -7,21 +7,28 @@
              x:Class="NewDemo.View.AttendantViewPage">
 
     <AbsoluteLayout Margin="3,3,3,3">
-        <ListView x:Name="AttedndantView"
-              ItemSelected="AttedndantView_ItemSelected">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout>
-                        <Label Text="{Binding FirstName}"/>
-                        <Label Text="{Binding LastName}"/>
-                        <Label Text="{Binding EmailAddress}"/>
-                        <Label Text="{Binding MobileNumber}"/>
-                        <Label Text="{Binding Gender}"/>
-                    </StackLayout>
-
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <StackLayout>
+            <StackLayout>
+                <Label Text="FirstName"/>
+                <Label Text="{Binding FirstName}"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="LastName"/>
+                <Label Text="{Binding LastName}"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Email"/>
+                <Label Text="{Binding Email}"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Number"/>
+                <Label Text="{Binding Number}"/>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Gender"/>
+                <Label Text="{Binding Gender}"/>
+            </StackLayout>
+        </StackLayout>
     </AbsoluteLayout>
 
     

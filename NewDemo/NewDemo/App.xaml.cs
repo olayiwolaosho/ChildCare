@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NewDemo.Services;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,6 +10,9 @@ namespace NewDemo
         public App()
         {
             InitializeComponent();
+
+            DependencyService.Register<AttendantFirebaseDataStore>();
+            DependencyService.Register<ChildFirebaseDataStore>();
 
             MainPage = new NavigationPage(new MainPage());
         }
