@@ -16,5 +16,15 @@ namespace NewDemo.View
         {
             InitializeComponent();
         }
+
+        private void Calenderbtn_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Calender());
+        }
+
+        private void Attendviewbtn_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AttendantViewPage());
+        }
     }
 }

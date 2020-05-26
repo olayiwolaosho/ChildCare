@@ -10,6 +10,11 @@
             <Label Text="Welcome to Xamarin.Forms!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="Attendant View" x:Name="Attendviewbtn" Clicked="Attendviewbtn_Clicked"/>
+            
+            <Button Text="Calender" x:Name="Calenderbtn" Clicked="Calenderbtn_Clicked"/>
+
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -1,4 +1,5 @@
-﻿using NewDemo.ViewModel;
+﻿using NewDemo.View;
+using NewDemo.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,9 @@ namespace NewDemo
             BindingContext = new AttendantPageViewModel(this.Navigation);
         }
 
-    
+        //private void View_Clicked(object sender, EventArgs e)
+        //{
+        //    Navigation.PushAsync(new AttendantViewPage());
+        //}
     }
 }
