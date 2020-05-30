@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "395465636871",
+    "firebase_url": "https://logbook-day-care.firebaseio.com",
+    "project_id": "logbook-day-care",
+    "storage_bucket": "logbook-day-care.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395465636871:android:f9ab3ebe99e7448135bea2",
+        "android_client_info": {
+          "package_name": "com.companyname.newdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395465636871-ccsqmk342i407i52tpdvnllpsu9diteu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVjF9LZ62QWf33anRI1j6A3M5v6eO1o5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395465636871-ccsqmk342i407i52tpdvnllpsu9diteu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

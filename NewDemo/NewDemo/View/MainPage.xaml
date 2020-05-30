@@ -16,12 +16,14 @@
                HorizontalTextAlignment="Center"
                FontFamily="CabinSketch"/>
         <Image Source="happycare" HorizontalOptions="Center"/>
-        <Entry x:Name="emailEntry" 
+        <Entry  
                Placeholder="Enter Email-address"
+                Text="{Binding EmailAddress}"
                Keyboard="Email"/>
 
-        <Entry x:Name="passwordEntry" 
+        <Entry  
                Placeholder="Enter Password"
+               Text="{Binding Password}"
                IsPassword="True"/>
 
         <Button x:Name="LoginButton" Text="Login"
@@ -29,13 +31,13 @@
             FontImage FontFamily=FontAwesome, Glyph={x:Static 
             helpers:IconFont.Login}, Size=30, Color=White}"
                 Margin="0,20,0,0"
-                Clicked="LoginButton_Clicked"
+               Command="{Binding LoginNavigation}"
                 Style="{StaticResource normalButton}"
                />
 
         <Button x:Name="ParentButton" Text="Parent"
                 Margin="0,10,0,0"
-                Clicked="ParentButton_Clicked"
+                Command="{Binding ParentNavigation}"
                 Style="{StaticResource normalButton}"
                 ImageSource="{
             FontImage FontFamily=FontAwesome, Glyph={x:Static 

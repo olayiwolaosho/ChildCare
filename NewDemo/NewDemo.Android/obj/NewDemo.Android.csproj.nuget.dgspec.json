@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\ChildCare\\NewDemo\\NewDemo.Android\\NewDemo.Android.csproj": {}
+    "C:\\Users\\Dev Adekunle\\ChildCare\\NewDemo\\NewDemo.Android\\NewDemo.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\ChildCare\\NewDemo\\NewDemo.Android\\NewDemo.Android.csproj": {
+    "C:\\Users\\Dev Adekunle\\ChildCare\\NewDemo\\NewDemo.Android\\NewDemo.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\ChildCare\\NewDemo\\NewDemo.Android\\NewDemo.Android.csproj",
+        "projectUniqueName": "C:\\Users\\Dev Adekunle\\ChildCare\\NewDemo\\NewDemo.Android\\NewDemo.Android.csproj",
         "projectName": "NewDemo.Android",
-        "projectPath": "C:\\Users\\user\\Desktop\\ChildCare\\NewDemo\\NewDemo.Android\\NewDemo.Android.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\ChildCare\\NewDemo\\NewDemo.Android\\obj\\",
+        "projectPath": "C:\\Users\\Dev Adekunle\\ChildCare\\NewDemo\\NewDemo.Android\\NewDemo.Android.csproj",
+        "packagesPath": "C:\\Users\\Dev Adekunle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dev Adekunle\\ChildCare\\NewDemo\\NewDemo.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dev Adekunle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -27,14 +27,13 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://packagesource": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\ChildCare\\NewDemo\\NewDemo\\NewDemo.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\ChildCare\\NewDemo\\NewDemo\\NewDemo.csproj"
+              "C:\\Users\\Dev Adekunle\\ChildCare\\NewDemo\\NewDemo\\NewDemo.csproj": {
+                "projectPath": "C:\\Users\\Dev Adekunle\\ChildCare\\NewDemo\\NewDemo\\NewDemo.csproj"
               }
             }
           }
@@ -43,6 +42,10 @@
       "frameworks": {
         "monoandroid90": {
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "FirebaseDatabase.net": {
               "target": "Package",
               "version": "[4.0.4, )"
@@ -67,6 +70,10 @@
               "target": "Package",
               "version": "[2.4.11.982, )"
             },
+            "Xamarin.Firebase.Auth": {
+              "target": "Package",
+              "version": "[71.1605.1, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.6.0.800, )"
@@ -83,20 +90,21 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\ChildCare\\NewDemo\\NewDemo\\NewDemo.csproj": {
+    "C:\\Users\\Dev Adekunle\\ChildCare\\NewDemo\\NewDemo\\NewDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\ChildCare\\NewDemo\\NewDemo\\NewDemo.csproj",
+        "projectUniqueName": "C:\\Users\\Dev Adekunle\\ChildCare\\NewDemo\\NewDemo\\NewDemo.csproj",
         "projectName": "NewDemo",
-        "projectPath": "C:\\Users\\user\\Desktop\\ChildCare\\NewDemo\\NewDemo\\NewDemo.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\ChildCare\\NewDemo\\NewDemo\\obj\\",
+        "projectPath": "C:\\Users\\Dev Adekunle\\ChildCare\\NewDemo\\NewDemo\\NewDemo.csproj",
+        "packagesPath": "C:\\Users\\Dev Adekunle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dev Adekunle\\ChildCare\\NewDemo\\NewDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dev Adekunle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -105,7 +113,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://packagesource": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -122,6 +129,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "FirebaseDatabase.net": {
               "target": "Package",
               "version": "[4.0.4, )"

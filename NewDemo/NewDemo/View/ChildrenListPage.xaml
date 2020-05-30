@@ -31,22 +31,21 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <CollectionView ItemsSource="{Binding Childname}">
+            <CollectionView ItemsSource="{Binding RegisterAllChildren}">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Grid>
+                        <Grid Padding="5">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="100"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
 
                             <Image Source="profileteacher"
-                                   WidthRequest="90"
-                                   HeightRequest="90"
+                                   WidthRequest="80"
+                                   HeightRequest="80"
                                    Grid.Column="0"/>
                             <StackLayout Orientation="Vertical" Grid.Column="1">
-                                <Label Text="Name" FontSize="Title"/>
-                                <Label Text="{Binding Childname}" FontSize="Subtitle"/>
+                                <Label Text="{Binding Childname}" TextColor="Black" FontAttributes="Bold" FontSize="16" VerticalOptions="Center"/>
                             </StackLayout>
                         </Grid>
                     </DataTemplate>

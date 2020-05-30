@@ -24,3 +24,32 @@ C:\Users\user\Desktop\ChildCare\NewDemo\NewDemo\bin\Debug\netstandard2.0\NewDemo
 C:\Users\user\Desktop\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\NewDemo.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\user\Desktop\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\NewDemo.csprojAssemblyReference.cache
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\bin\Debug\netstandard2.0\NewDemo.deps.json
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\bin\Debug\netstandard2.0\NewDemo.dll
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\bin\Debug\netstandard2.0\ref\NewDemo.dll
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\bin\Debug\netstandard2.0\NewDemo.pdb
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\MainShell.xaml.g.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\View\ActivitiesPage.xaml.g.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\View\AddChildrenPage.xaml.g.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\View\AttendantPage.xaml.g.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\View\AttendantViewPage.xaml.g.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\View\Calender.xaml.g.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\View\ChildrenListPage.xaml.g.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\View\MyChildPage.xaml.g.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\View\ParentLogin.xaml.g.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\View\ParentViewtb.xaml.g.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\View\ProfilePage.xaml.g.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\NewDemo.AssemblyInfoInputs.cache
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\NewDemo.AssemblyInfo.cs
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\NewDemo.csproj.CopyComplete
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\NewDemo.dll
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\ref\NewDemo.dll
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\NewDemo.pdb
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\NewDemo.csproj.CoreCompileInputs.cache
+C:\Users\Dev Adekunle\ChildCare\NewDemo\NewDemo\obj\Debug\netstandard2.0\XamlC.stamp

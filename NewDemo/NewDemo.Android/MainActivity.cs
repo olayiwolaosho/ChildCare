@@ -7,6 +7,8 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Xamarin.Forms;
+using Firebase;
+using NewDemo.Droid.FirebaseAndroid;
 
 namespace NewDemo.Droid
 {
@@ -20,11 +22,12 @@ namespace NewDemo.Droid
 
             base.OnCreate(savedInstanceState);
             Forms.SetFlags("CollectionView_Experimental");
+            FirebaseApp.InitializeApp(this);
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(true);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             global::Xamarin.Forms.FormsMaterial.Init(this, savedInstanceState);
-            LoadApplication(new App());
+            LoadApplication(new App((new DroidModule())));
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
