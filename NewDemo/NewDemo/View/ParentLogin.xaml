@@ -1,18 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:helpers="clr-namespace:NewDemo.Helpers"
+             Shell.NavBarIsVisible="False"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="NewDemo.ParentLogin">
+             x:Class="NewDemo.ParentLogin"
+             Visual="Material">
 
-    <StackLayout VerticalOptions="Center"
-                 Margin="20">
+    <StackLayout VerticalOptions="CenterAndExpand"
+                   Padding="20" BackgroundColor="White">
         <!-- Place new controls here -->
-        <Image x:Name="iconImage" Aspect="AspectFit" 
-               HorizontalOptions="FillAndExpand"
-               HeightRequest="200"
-               Margin="0, 0, 0, 50"/>
+        <Label Text="Parent" FontSize="30" TextColor="Blue"
+               HorizontalTextAlignment="Center"
+               FontFamily="CabinSketch"/>
+        <Image Source="parent" HorizontalOptions="Center"/>
         <Entry x:Name="emailEntry" 
                Placeholder="Email address"
                Keyboard="Email"/>
@@ -24,7 +27,9 @@
         <Button x:Name="ParentSignIn" Text="Log in as parent"
                 Margin="0,50,0,0"
                 Clicked="ParentSignIn_Clicked"
-                Style="{StaticResource normalButton}"/>
+                Style="{StaticResource normalButton}" ImageSource="{
+            FontImage FontFamily=FontAwesome, Glyph={x:Static 
+            helpers:IconFont.Login}, Size=30, Color=White}"/>
 
     </StackLayout>
 </ContentPage>

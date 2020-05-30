@@ -11,9 +11,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\CabinSketch-Bold.ttf" />
+    <None Remove="Fonts\materialdesignicons-webfont.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Fonts\CabinSketch-Bold.ttf" />
+    <EmbeddedResource Include="Fonts\materialdesignicons-webfont.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="FirebaseDatabase.net" Version="4.0.4" />
-    <PackageReference Include="Xamarin.Forms" Version="4.6.0.772" />
+    <PackageReference Include="Syncfusion.Xamarin.SfCalendar" Version="18.1.0.53" />
+    <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.0.0.5" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.FFImageLoading.Transformations" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.Forms" Version="4.6.0.800" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Forms.PancakeView" Version="1.4.2" />
+    <PackageReference Include="Xamarin.Forms.Visual.Material" Version="4.6.0.800" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +39,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="MainShell.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="View\ActivitiesPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -33,6 +52,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\AttendantViewPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="View\Calender.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="View\ChildrenListPage.xaml">
