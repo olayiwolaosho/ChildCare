@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:helpers="clr-namespace:NewDemo.Helpers"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfCalendar.XForms;assembly=Syncfusion.SfCalendar.XForms"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             Shell.NavBarIsVisible="False"
+             Visual="Material"
+             BackgroundColor="#1F45FC"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="NewDemo.View.Calender">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label Text="Child-Activities Calender"
+                   HorizontalTextAlignment="Center"
+                   FontSize="30" FontFamily="CabinSketch"
+                   TextColor="WhiteSmoke"
+                   VerticalTextAlignment="Center" Grid.Row="0"/>
+
+            <yummy:PancakeView BackgroundColor="WhiteSmoke" Padding="10"
+                               HorizontalOptions="FillAndExpand"
+                               CornerRadius="60,60,0,0"
+                               Grid.Row="1">
+                <Grid Padding="20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    
+                    <Label Text="Check Child's Activities on each particular date"
+                           FontSize="Subtitle" Grid.Row="0"/>
+
+                    <!--<Label Text="Expander comes here" Grid.Row="1"/>-->
+                    <Expander Grid.Row="1">
+                        <Expander.Header>
+                            <Grid BackgroundColor="Purple">
+                                <Label Text="View Calender" TextColor="WhiteSmoke"
+                                       FontSize="Subtitle"/>
+                                <Image Source="{FontImage FontFamily=FontAwesome,Glyph=
+                                    {x:Static helpers:IconFont.ArrowDown},Color=WhiteSmoke
+                                    ,Size=30}"
+                                       HorizontalOptions="End">
+                                    <Image.Triggers>
+                                        <DataTrigger TargetType="Image" Binding="{
+                                            Binding Source={RelativeSource AncestorType=
+                                            {x:Type Expander}},Path=IsExpanded}" Value="True">
+                                            <Setter Property="Source" Value="{FontImage FontFamily=FontAwesome,
+                                                Glyph={x:Static helpers:IconFont.ArrowUp},Color=WhiteSmoke,
+                                                Size=30}"/>
+                                        </DataTrigger>
+                                    </Image.Triggers>
+                                </Image>
+                          
+                            </Grid>
+                        </Expander.Header>
+                        <Expander.Content>
+                            
+                            <syncfusion:SfCalendar x:Name="calender" WidthRequest="40" HeightRequest="50"/>
+                        </Expander.Content>
+                    </Expander>
+
+                    <Label Text="Are you done" Grid.Row="2"/>
+
+                    <yummy:PancakeView BackgroundColor="WhiteSmoke"
+                                       Padding="10" HorizontalOptions="End"
+                                       CornerRadius="60,0,60,0"
+                                       Grid.Row="2">
+                        <Button Text="Child List" WidthRequest="200"
+                                ImageSource="{FontImage FontFamily=FontAwesome,Glyph=
+                            {x:Static helpers:IconFont.AccountCircle},Color=WhiteSmoke,Size=30}"
+                                BackgroundColor="#4CAF50"/>
+                    </yummy:PancakeView>
+
+                </Grid>
+            </yummy:PancakeView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

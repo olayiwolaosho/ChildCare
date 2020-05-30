@@ -1,12 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:helpers="clr-namespace:NewDemo.Helpers"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:ffTrans="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             Shell.NavBarIsVisible="False"
+             Visual="Material"
+             BackgroundColor="#1F45FC"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              mc:Ignorable="d"
              x:Class="NewDemo.View.AttendantViewPage">
-
-    <AbsoluteLayout Margin="3,3,3,3">
+    <ContentPage.Content>
+        <!--<AbsoluteLayout Margin="3,3,3,3">
         <StackLayout>
             <StackLayout>
                 <Label Text="FirstName"/>
@@ -29,8 +36,84 @@
                 <Label Text="{Binding Gender}"/>
             </StackLayout>
         </StackLayout>
-    </AbsoluteLayout>
+    </AbsoluteLayout>-->
+        <Label/>
+    </ContentPage.Content>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-    
+        <Label Text="My Profile"
+                   HorizontalTextAlignment="Center"
+                   FontSize="30" FontFamily="CabinSketch"
+                   TextColor="WhiteSmoke"
+                   VerticalTextAlignment="Center" Grid.Row="0"/>
 
+        <yummy:PancakeView BackgroundColor="WhiteSmoke" Padding="10"
+                               HorizontalOptions="FillAndExpand"
+                               CornerRadius="60,60,0,0"
+                               Grid.Row="1">
+            <Grid BackgroundColor="White">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+               
+
+                <controls:CircleImage Grid.Row="1" Grid.Column="2" Source="profileteacher">
+                    <controls:CircleImage.WidthRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                                Android="20"/>
+                    </controls:CircleImage.WidthRequest>
+                    <controls:CircleImage.HeightRequest>
+                        <OnPlatform x:TypeArguments="x:Double"
+                                Android="20"/>
+                    </controls:CircleImage.HeightRequest>
+                </controls:CircleImage>
+
+                <Label Text="First Name:"  Grid.Row="2" FontFamily="CabinSketch"
+                       FontSize="20" TextColor="Blue"/>
+                <Label Text="{Binding FirstName}" Grid.Row="2" Grid.Column="2" FontFamily="CabinSketch"
+                       FontSize="20" TextColor="Blue"/>
+
+                <Label Text="Last Name:"  Grid.Row="3" FontFamily="CabinSketch"
+                       FontSize="20" TextColor="Blue"/>
+                <Label Text="{Binding LastName}" Grid.Row="3" Grid.Column="2" FontFamily="CabinSketch"
+                       FontSize="20" TextColor="Blue"/>
+
+                <Label Text="Email Address:"  Grid.Row="4" FontFamily="CabinSketch"
+                       FontSize="20" TextColor="Blue"/>
+                <Label Text="{Binding Email}" Grid.Row="4" Grid.Column="2" FontFamily="CabinSketch"
+                       FontSize="20" TextColor="Blue"/>
+
+                <Label Text="Phone:"  Grid.Row="5" FontFamily="CabinSketch"
+                       FontSize="20" TextColor="Blue"/>
+                <Label Text="{Binding Number}" Grid.Row="5" Grid.Column="2" FontFamily="CabinSketch"
+                       FontSize="20" TextColor="Blue"/>
+
+                <Label Text="Gender:"  Grid.Row="6" FontFamily="CabinSketch"
+                       FontSize="20" TextColor="Blue"/>
+                <Label Text="{Binding Gender}" Grid.Row="6" Grid.Column="2" FontFamily="CabinSketch"
+                       FontSize="20" TextColor="Blue"/>
+
+
+            </Grid>
+
+        </yummy:PancakeView>
+
+    </Grid>
 </ContentPage>

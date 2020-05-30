@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="NewDemo.AddChildrenPage">
+             x:Class="NewDemo.AddChildrenPage"
+             Visual="Material">
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
@@ -16,7 +17,7 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <TableView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" 
+            <!--<TableView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" 
                    Intent="Form" HasUnevenRows="true">
                 <TableSection Title="Complete Your Profile">
                     <EntryCell x:Name="ChildName" Label="Child Name"  Text="{Binding ChildName}"/>
@@ -26,11 +27,26 @@
                     <EntryCell x:Name="Password" Label="Password" Text="{Binding Password}"/>
                 </TableSection>
 
+            </TableView>-->
 
-            </TableView>
+            <StackLayout Spacing="30"
+                Margin="20" Grid.ColumnSpan="2">
+                <Label Text="Child Form" FontSize="20" TextColor="Blue"
+               HorizontalTextAlignment="Center"
+               FontFamily="CabinSketch"/>
+                <Entry Text="{Binding ChildName}" Placeholder="Child Name"/>
 
-            <Button Text="Save" Grid.Row="1" Grid.Column="0" BackgroundColor="#008000" TextColor="White"  Command="{Binding Save}"/>
-            <Button Text="Cancel" Grid.Row="1" Grid.Column="1" BackgroundColor="#EE3F60" TextColor="White" Command="{Binding Cancle}"/>
+                <Entry Text="{Binding Password}" Placeholder="Password" IsPassword="True"/>
+
+            </StackLayout>
+
+            <Button  Text="Submit" Grid.Row="1" Grid.Column="0"
+                    BackgroundColor="#008000" TextColor="White"
+                    CornerRadius="7" Margin="20"
+                    Command="{Binding Save}"/>
+            <Button  Text="Cancel" Grid.Row="1" Grid.Column="1" Margin="20"
+                    BackgroundColor="#EE3F60" TextColor="White" 
+                    Command="{Binding Cancel}" />
         </Grid>
     </ContentPage.Content>
 </ContentPage>

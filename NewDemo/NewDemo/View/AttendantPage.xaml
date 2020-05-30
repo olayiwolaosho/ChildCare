@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="NewDemo.AttendantPage">
+             x:Class="NewDemo.AttendantPage"
+             Visual="Material">
     <!--<ContentPage.ToolbarItems>
         <ToolbarItem Icon="view.png"
                  x:Name="ProfileView"
@@ -23,32 +24,66 @@
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
-            <TableView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" 
-                   Intent="Form" HasUnevenRows="true">
-                <TableSection Title="Complete Your Profile">
-                    <EntryCell Text="{Binding FirstName}" Label="First Name" />
-                </TableSection>
+            <!--<tableview grid.row="0" grid.column="0" grid.columnspan="2"
+                   intent="form">
+                <tablesection title="complete your profile">
+                    <entrycell text="{binding firstname}" label="first name" />
+                    
+                </tablesection>
 
-                <TableSection Title=" ">
-                    <EntryCell Label="Last Name" Text="{Binding LastName}"/>
-                </TableSection>
+                <tablesection title="">
+                    <entrycell label="last name" text="{binding lastname}"/>
+                </tablesection>
 
-                <TableSection Title=" ">
-                    <EntryCell Text="{Binding Email}" Label="E-Address" />
-                </TableSection>
+                <tablesection title="">
+                    <entrycell text="{binding email}" label="e-address" />
+                </tablesection>
 
-                <TableSection Title=" ">
-                    <EntryCell Text="{Binding Number}" Label="Number" />
-                </TableSection>
+                <tablesection title="">
+                    <entrycell text="{binding number}" label="number   " />
+                </tablesection>
 
-                <TableSection Title=" ">
-                    <EntryCell Text="{Binding Gender}" Label="Gender" />
-                </TableSection>
+                <tablesection title="">
+                    <entrycell text="{binding gender}" label="gender   " />
+                    
+                </tablesection>
 
-            </TableView>
+            </tableview>-->
 
-            <Button Text="Save" Grid.Row="1" Grid.Column="0" BackgroundColor="#008000" TextColor="White" Command="{Binding Save}"/>
-            <Button Text="Cancel" Grid.Row="1" Grid.Column="1" BackgroundColor="#EE3F60" TextColor="White" Command="{Binding Cancel}"/>
+            <StackLayout 
+                   Margin="20" Grid.ColumnSpan="2">
+                <Label Text="Complete Form" FontSize="20" TextColor="Blue"
+               HorizontalTextAlignment="Center"
+               FontFamily="CabinSketch"/>
+                <Entry Text="{Binding firstname}" Placeholder="First Name"/>
+                
+                <Entry Text="{Binding lastname}" Placeholder="Last Name"/>
+                
+                <Entry Text="{Binding email}" Placeholder="Email Addess"/>
+                
+                <Entry Text="{Binding number}" Placeholder="Mobile Number"/>
+                
+                <Entry Text="{Binding gender}" Placeholder="Gender"/>
+                
+                
+                
+
+            </StackLayout>
+            <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" />
+            <Button  Text="Submit" Grid.Row="1" Grid.Column="0"
+                    BackgroundColor="#008000" TextColor="White"
+                    CornerRadius="7" Margin="20"
+                    Command="{Binding Save}"
+                     
+                     />
+            
+            <Button  Text="Cancel" Grid.Row="1" Grid.Column="1" Margin="20"
+                    BackgroundColor="#EE3F60" TextColor="White" 
+                    Command="{Binding Cancel}" 
+                     IsVisible="{Binding IsNotBusy}"/>
+
+            
+
         </Grid>
     </ContentPage.Content>
 </ContentPage>
